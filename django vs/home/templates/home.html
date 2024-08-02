@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Moviezz</title>
+</head>
+<body>
+    <h1>Moviezz</h1>
+    <ul>
+        {% for movie in movies %}
+        <li>
+            <h1>{{ movie.Title }}</h1> 
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
